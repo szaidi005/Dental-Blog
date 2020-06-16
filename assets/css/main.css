@@ -3919,7 +3919,7 @@ blockquote {
 }
 
 #one .image {
-  background-position: 0 1vh;
+  background-position: 0 1px;
 }
 
 .post .image img {
