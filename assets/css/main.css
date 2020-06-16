@@ -3868,6 +3868,12 @@ blockquote {
   font-size: 2rem;
 }
 
+@media screen and (max-width: 420px) {
+  blockquote {
+    font-size: 1rem;
+  }
+}
+
 .post .content .postnav .prev,
 .post .content .postnav .next {
   text-decoration: none;
