@@ -3241,9 +3241,7 @@ table.alt tbody tr td {
 
 /* Header */
 
-body {
-  padding-top: 4.125em;
-}
+
 
 #header {
   background: peachpuff;
@@ -3337,10 +3335,10 @@ body {
   }
 }
 
-@media screen and (max-width: 980px) {
+/* @media screen and (max-width: 980px) {
   body {
     padding-top: 44px;
-  }
+  } */
 
   #header {
     height: 44px;
@@ -3749,7 +3747,7 @@ body.is-loading #banner > .inner {
 
 @media screen and (max-width: 736px) {
   #banner {
-    padding: 5em 1.5em 4em 1.5em;
+    padding:2em 1.5em 4em 1.5em;
   }
 
   #banner h1 {
