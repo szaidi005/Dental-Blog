@@ -2477,6 +2477,7 @@ input[type="radio"]:focus + label:before {
 .image.fit img {
   width: 40%;
   margin: 0 auto;
+  filter: drop-shadow(10px 10px 50px grey); 
 }
 
 .image.main {
