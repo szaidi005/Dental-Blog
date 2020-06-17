@@ -2478,6 +2478,19 @@ input[type="radio"]:focus + label:before {
   width: 40%;
   margin: 0 auto;
   filter: drop-shadow(10px 10px 50px grey); 
+  box-shadow: 0 0 8px 8px white inset;
+  animation: drop 1.5s ease; 
+}
+
+@keyframes drop {
+  0% {
+      opacity: 0;
+      transform: translateY(-80px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0px);
+  }
 }
 
 .image.main {
@@ -3578,15 +3591,6 @@ table.alt tbody tr td {
   animation-direction: alternate;
 }
 
-@keyframes drop {
-  0% {
-      opacity: 0;
-      transform: translateY(-80px);
-  }
-}   100% {
-      opacity: 1;
-      transform: translateY(0px);
-}
 
 #banner input[type="submit"].alt:hover,
 #banner input[type="reset"].alt:hover,
