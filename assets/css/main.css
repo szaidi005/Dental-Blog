@@ -3348,8 +3348,13 @@ table.alt tbody tr td {
   #header .logo {
     left: 1em;
     font-size: 1em;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
   }
-}
+
+  #header .logo:hover{
+    border-bottom: 4px solid grey;
+  }
 
 @media screen and (max-width: 480px) {
   #header {
@@ -4797,3 +4802,5 @@ blockquote {
     padding: 3em 0 1em 0;
   }
 }
+
+
