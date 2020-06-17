@@ -3875,7 +3875,7 @@ body.is-ie .post {
   margin: 0;
 }
 #head-line {
-  text-align: justify;
+  text-align: left;
 }
 .post .content .postnav {
   position: absolute;
